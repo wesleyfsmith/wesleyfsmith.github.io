@@ -15,7 +15,7 @@
   <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.3.0/Chart.min.js" type="text/javascript"/></script>
   <script src="http://code.jquery.com/jquery-3.1.1.min.js" integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8=" crossorigin="anonymous"></script>
   <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.3.0/Chart.bundle.min.js" type="text/javascript"/></script> -->
-  <nav class="navbar navbar-default">
+  <nav class="navbar navbar-default" style="border-radius: 0px;">
   <div class="container-fluid">
     <div class="navbar-header">
       <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
@@ -27,7 +27,7 @@
       <a class="navbar-brand" href="#">Wesley</a>
     </div>
 
-    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+    <!-- <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
 
       <ul class="nav navbar-nav navbar-right">
         <li><a href="#">Projects</a></li>
@@ -36,11 +36,11 @@
         <li><a href="#">Link</a></li>
 
       </ul>
-    </div>
+    </div> -->
   </div>
 </nav>
 
-  <div class="container">
+  <div class="container" height="500px">
     <div class="row">
       <div class="col-md-6">
         <br />
@@ -53,7 +53,7 @@
         </p>
       </div>
       <div class="col-md-6">
-        <img src="http://placekitten.com/400/400" class="img-responsive center-block img-circle" />
+        <img style="border: 1px solid;" src="wesley_portfolio.jpg" class="img-responsive center-block img-rounded" />
       </div>
     </div>
     <div class="row">
@@ -64,37 +64,37 @@
         <script src="chart.js" type="text/javascript"/></script>
       </div>
     </div>
-    <div class="row">
+    <div class="row hideme">
       <div class="col-md-12">
-        <hr />
         <h3 class="text-center">What people say about me</h3>
 
         <div class="row">
           <div class="col-md-6">
             <h4 class="text-center">Clients</h4>
+            <hr>
             <div class="row">
-              <div class="col-md-6">
-                <img src="http://placekitten.com/150/150" class="img-responsive pull-right img-circle" />
-              </div>
-              <div class="col-md-6">
+              <div class="col-md-8">
                 <p>
                   We decided to go with Wesley because he is very easy to communicate with--a rare trait for an engineer to have!
                 </p>
-                <small><cite title="Source Title">James May</cite></small>
+                <small><cite title="Source Title">James Morrison</cite></small>
                 <br />
+              </div>
+              <div class="col-md-4">
+                <img src="jamesmay.jpg" class="img-responsive pull-right img-rounded" />
               </div>
             </div>
             <div class="row">
               <br />
-              <div class="col-md-6">
-                <img src="http://placekitten.com/150/150" class="img-responsive center-block img-rounded" />
-              </div>
-              <div class="col-md-6">
+              <div class="col-md-8">
                 <p>
                   We had worked with other code shops before, but we found it much easier to work with Wesley and his team
                   because he understood how to translate our product vision in a working product.
                 </p>
-                <small><cite title="Source Title">Greg Kossa</cite></small>
+                <small><cite title="Source Title">Michelle Kossa</cite></small>
+              </div>
+              <div class="col-md-4">
+                <img src="stacey.jpg" class="img-responsive pull-right img-rounded" />
               </div>
             </div>
 
@@ -102,11 +102,25 @@
           </div>
           <div class="col-md-6">
             <h4 class="text-center">Students</h4>
+            <hr>
+
             <div class="row">
-              <div class="col-md-6">
-                <img src="http://66.media.tumblr.com/avatar_658499f5414a_128.png" class="img-responsive center-block img-circle" />
+              <div class="col-md-4">
+                <img src="apavia.jpg" class="img-responsive pull-right img-rounded" />
               </div>
-              <div class="col-md-6">
+              <div class="col-md-8">
+                <p>
+                  I had wanted to pursue a career in web development, but until I took Wesley's course I never would have thought it was possible. Thank you for inspiring me to pursue a dream, to not give up, and to take risks.
+                </p>
+                <small><cite title="Source Title">Alex Pavia</cite></small>
+              </div>
+            </div>
+            <div class="row">
+              <br />
+              <div class="col-md-4">
+                <img src="https://pbs.twimg.com/profile_images/595449260880998400/uGIB9D1u.jpg" class="img-responsive pull-right img-rounded" />
+              </div>
+              <div class="col-md-8">
 
                 <p> I wanted to make the transition from being a data scientist at Adobe to software engineering.
                   I didn't think there was a course that would fit where I am, but with Wesley's instruction I was
@@ -115,18 +129,6 @@
                 <small><cite title="Source Title">Jowanza Joseph</cite></small>
               </div>
 
-            </div>
-            <div class="row">
-              <br />
-              <div class="col-md-6">
-                <img src="apavia.jpg" class="img-responsive center-block img-circle" />
-              </div>
-              <div class="col-md-6">
-                <p>
-                  I had wanted to pursue a career in web development, but until I took Wesley's course I never would have thought it was possible. Thank you for inspiring me to pursue a dream, to not give up, and to take risks.
-                </p>
-                <small><cite title="Source Title">Alex Pavia</cite></small>
-              </div>
             </div>
           </div>
         </div>
@@ -139,9 +141,11 @@
         <h2 class="text-center">My Projects</h2>
 
         <div class="row">
-          <br />
-          <div class="col-md-6">
+          <div class="col-md-12">
             <h3>iWorlds</h3>
+            <hr>
+          </div>
+          <div class="col-md-6 hideme">
             <p>
               iWorlds is a multi-player educational space simulation company that incorporates learning and technology in a team building environment.
             </p>
@@ -165,9 +169,12 @@
         </div>
 
         <div class="row">
-          <hr/>
-          <div class="col-md-6">
+          <div class="col-md-12">
             <h3>Nasa Rover Competition</h3>
+            <hr>
+          </div>
+          <hr/>
+          <div class="col-md-6 hideme">
             <p>
               I competed with a team in the nasa rover competition. The competition involves a simulated extra-planetary rover mission where the robot needs to traverse varying difficulties of terrain while collecting and storing rock samples.
             </p>
@@ -192,10 +199,12 @@
           </div>
         </div>
 
-        <div class="row">
-          <hr/>
-          <div class="col-md-6">
+        <div class="row hideme">
+          <div class="col-md-12">
             <h3>HipGeo</h3>
+            <hr>
+          </div>
+          <div class="col-md-6">
             <p>
               HipGeo was a blogging and social networking app for travel. You could use the app to passively track your route on trips and intelligently collect your media and text uploads into replayable trip posts.
             </p>
@@ -215,10 +224,12 @@
           </div>
         </div>
 
-        <div class="row">
-          <hr/>
-          <div class="col-md-6">
+        <div class="row hideme">
+          <div class="col-md-12">
             <h3>Canvas for Android</h3>
+            <hr>
+          </div>
+          <div class="col-md-6">
             <p>
               Canvas is a learning management system for universities and schools. It allows students to create class discussions, submit homework, and check up on their grades.
             </p>
@@ -229,24 +240,29 @@
               Canvas has been featured in <a href="http://www.wsj.com/articles/PR-CO-20161004-908084">The Wall Street Journal</a>, <a href="https://techcrunch.com/2015/11/13/instructure-up-8-from-ipo-ceo-sees-huge-renaissance-in-edtech/">Tech Crunch</a>, and <a href="http://www.pcmag.com/article2/0,2817,2490586,00.asp">PC Mag</a>.
             </p>
             <p>
+              See Canvas for android on the <a href="https://play.google.com/store/apps/details?id=com.instructure.candroid&hl=en">Google Play Store</a>.
+            </p>
+            <p>
               <i>Technologies Used: Android SDK, PhP, Amazon Web Services, Android NDK, FFMPEG</i>
             </p>
           </div>
-          <div class="col-md-3">
+          <div class="col-md-2" style="padding-left: 1px;">
             <img src="https://lh3.googleusercontent.com/mKkuaiiEF3WoH42r3Yr8INiuoP-qOWUOj-OBEOHPcMys5PqGRY5c8caLtDfjF2vUpGc=h310-rw" class="img-responsive center-block img-rounded" />
           </div>
-          <div class="col-md-3">
+          <div class="col-md-2" style="padding-left: 1px;">
             <img src="https://lh3.googleusercontent.com/oM8BMcpZoM388pUEYuaZbpUzKmVZPNMSKRBsOgzZLc8lQxMfVrvOAHHZg094-L0kRvM=h310-rw" class="img-responsive center-block img-rounded" />
           </div>
-          <!-- <div class="col-md-2">
+          <div class="col-md-2" style="padding-left: 1px;">
             <img src="https://lh3.googleusercontent.com/5TVXdYtFA5SVO3TaE9yG7PBbeOS6Gxg05SKzKgzkVqFNgChmrwSeEio-8D0ATRnNaWA=h310-rw" class="img-responsive center-block img-rounded" />
-          </div> -->
+          </div>
         </div>
 
         <div class="row">
-          <hr/>
-          <div class="col-md-6">
+          <div class="col-md-12">
             <h3>Isomer Code School</h3>
+            <hr>
+          </div>
+          <div class="col-md-6 hideme">
             <p>
               I founded and ran a 3 month programming bootcamp course. We taught adults with no prior coding experience how to build basic application and land a job.
             </p>
@@ -260,7 +276,7 @@
               The program has been converted into a non-profit, and while I don't manage the day to day anymore I do teach as a guest instructor periodically.
             </p>
             <p>
-              My teaching programs have been written about in <a href="">The Salt Lake Tribune</a>, <a href="">Beehive Startups</a>, and featured on radio shows such as <a href="">The Bottom Line</a> and <a href="">Montain Money</a>.
+              My teaching programs have been written about in <a href="http://www.sltrib.com/news/1857240-155/business-incubators-are-hatching-high-tech-outlets">The Salt Lake Tribune</a>, <a href="https://beehivestartups.com/tag/launchcode/">Beehive Startups</a>, and featured on radio shows such as <a href="http://kcpw.org/kcpw-newsroom/bottom-line/">The Bottom Line</a> and <a href="http://kpcw.org/programs/mountain-money">Montain Money</a>.
             </p>
             <p>
               <i>Technologies Used: MEANjs, javascript, Mongo DB, Bootstrap</i>
@@ -277,10 +293,12 @@
           </div>
         </div>
 
-        <div class="row">
-        <hr/>
-          <div class="col-md-6">
+        <div class="row hideme">
+          <div class="col-md-12">
             <h3>Artificial Intelligence Quotient</h3>
+            <hr>
+          </div>
+          <div class="col-md-6">
             <p>
               AIQ, LLC is a registered investment advisory firm located in Park City, Utah. We used machine learning to make market predictions.
             </p>
@@ -292,11 +310,11 @@
             </p>
           </div>
           <div class="col-md-6">
-            <img src="https://www.activetick.com/activetick/contents/images/PlatformFeatures/PlatformOrderEntryLarge.png" class="img-responsive center-block img-rounded" />
+            <img src="https://www.activetick.com/activetick/contents/images/PlatformFeatures/PlatformLarge.png" style="max-height: 200px;" class="img-responsive center-block" />
           </div>
         </div>
 
-        <div class="row">
+        <!-- <div class="row">
           <hr/>
           <div class="col-md-6">
             <h3>Rikra</h3>
@@ -310,12 +328,14 @@
           <div class="col-md-6">
             <img src="http://placekitten.com/400/250" class="img-responsive center-block img-rounded" />
           </div>
-        </div>
+        </div> -->
 
-        <div class="row">
-          <hr/>
-          <div class="col-md-6">
+        <div class="row hideme">
+          <div class="col-md-12">
             <h3>RapiDoc</h3>
+            <hr>
+          </div>
+          <div class="col-md-6">
             <p>
               RapiDoc allows patients with HSA accounts to pay their doctors directly for medical services.
             </p>
@@ -330,16 +350,12 @@
             </p>
           </div>
           <div class="col-md-6">
-            <img src="http://placekitten.com/400/250" class="img-responsive center-block img-rounded" />
+            <img src="rapidoc_screenshot_framed.jpg" class="img-responsive center-block" style="max-height: 450px;" />
           </div>
         </div>
-
-      </div>
-    </div>
-    <div class="row">
-      <div class="col-md-12">
-        <hr />
-        <h3 class="text-center">Need anything else?</h3>
+        <div class="col-md-12">
+          <br />
+        </div>
       </div>
     </div>
   </div>
