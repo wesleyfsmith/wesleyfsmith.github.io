@@ -2,7 +2,7 @@
 var ctx = document.getElementById("myChart").getContext("2d");
 
 var data = {
-    labels: [ "Linux", "Mobile Apps", "Programming", "Javascript", "C++", "Java", "MySQL", "Python", "NodeJS", "Meteor", "Angular", "React", "Teaching", "MongoDB"],
+    labels: [ "Linux", "Solidity", "General Programming", "Mobile Apps", "Javascript", "C++", "Java", "MySQL", "Python", "NodeJS", "Meteor", "Angular", "React", "MongoDB"],
     datasets: [
         {
             label: "Years of experience",
@@ -39,7 +39,7 @@ var data = {
                 'rgba(255, 159, 64, 1)'
             ],
             borderWidth: 1,
-            data: [ 12, 6, 12, 6, 4, 8, 6, 9, 4, 2, 3, 1, 7, 3],
+            data: [ 12, 5, 12, 6, 10, 3, 8, 5, 6, 8, 5, 3, 6, 6],
         }
     ]
 };
